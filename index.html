@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/railscasts.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <select id="language">
+      <option value="javascript" selected>JavaScript</option>
+      <option value="xml">HTML</option>
+      <option value="css">CSS</option>
+      <option value="ruby">Ruby</option>
+      <option value="json">JSON</option>
+      <option value="bash">Bash</option>
+    </select>
+
+    <label for="size">Size:</label>
+    <input id="size" type="text" value="18"></input>
+
+    <br />
+
+    <div id="wrapper">
+      <textarea id="input" rows="50"></textarea>
+      <pre><code id="output"></code></pre>
+    </div>
+
+    <script src="highlight.pack.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
